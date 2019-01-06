@@ -1,0 +1,50 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+//
+// Table of Contents:
+//
+//  1. Colors
+//  2. Sizes
+//  3. Fonts
+
+
+// 1. Colors
+// ==========================================================================
+$white: #fff;
+$main-color: #46c0ba;
+$sec-color: #ff6469;
+$grey:#686969;
+$dark-grey:#383838;
+
+// 2. Fonts
+// ==========================================================================
+$font-main: 'Dosis', sans-serif;
+$font-second: 'Roboto', sans-serif;
+$font-sec: 'Roboto', sans-serif;
+$font-cond: 'Roboto Condensed', sans-serif;
+$font-headings: 'Roboto Slab', serif;
+
+
+// 3. Sizes -- From Materialize
+// ==========================================================================
+
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$num-cols: 12 !default;
+$gutter-width: 1.5rem !default;
+$element-top-margin: $gutter-width/3 !default;
+$element-bottom-margin: ($gutter-width*2)/3 !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
